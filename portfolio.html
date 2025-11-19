@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Farseen | Portfolio</title>
+  <link rel="stylesheet" href="portfolio.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <header>
+    <h1>FARSEEN AHAMMED</h1>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+      <button id="theme-toggle">🌙 Dark</button>
+    </nav>
+  </header>
+
+
+  <section id="home" class="home">
+    <div class="hero-content">
+      <div class="profile-pic">
+        <img class="profile-img" src="image/file_0000000025b861f5abdf240ce9bd3131.png" alt="Farseen Ahammed"/>
+      </div>
+      <h2>Hi, I'm <span>Farseen </span></h2>
+      <p>
+        I’m a <strong>Full Stack Developer Intern</strong> specializing in
+        <b>React</b> for building dynamic, responsive UIs and
+        <b>Python (Flask/Django)</b> for backend logic and APIs.
+        I love creating clean, scalable web solutions and collaborating on impactful projects.
+      </p>
+      <button class="btn" onclick="downloadCV()"><a href="" style="text-decoration: none;" >Get My CV</a></button>
+    </div>
+  </section>
+
+
+  <section id="about">
+    <h2 class="section-title">About Me</h2>
+    <p>
+      I’m a Full Stack Developer Intern , specializing in
+React + Python. I build scalable, maintainable web applications with a strong focus on UX, performance, and clean code. I enjoy turning real-world problems into practical digital solutions, whether it’s a small utility app or a full-featured project.
+
+Curiosity drives me — I love learning new tools, experimenting with modern frameworks, and continuously improving my coding skills. Through my internship, I’ve gained hands-on experience in frontend development with React, state management, API integrations, and backend development with Python/Django.
+
+I have also completed relevant certifications and projects that strengthened my skills in web development, problem-solving, and application design. My achievements include leading the K-CNCT project, developing an E-Commerce Application using Redux, creating the Receipt Generator App, conducting workshops on portfolio deployment, and building tools that solve real-world problems efficiently.
+    </p>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <h2 class="section-title">Skills</h2>
+    <div class="skills">
+      <div class="skill">HTML5</div>
+      <div class="skill">CSS3</div>
+      <div class="skill">JavaScript</div>
+      <div class="skill">React</div>
+      <div class="skill">Node.js</div>
+      <div class="skill">Python</div>
+      <div class="skill">Git & GitHub</div>
+      <div class="skill">Responsive Design</div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <h2 class="section-title">Projects</h2>
+    <div class="projects">
+      <div class="project">
+        <img src="https://picsum.photos/seed/1/600/400" alt="Portfolio">
+        <div class="project-content">
+          <h3>Portfolio Website</h3>
+          <p>A personal portfolio showcasing my work, skills, and contact info.</p>
+        </div>
+      </div>
+
+      <div class="project">
+        <img src="https://picsum.photos/seed/2/600/400" alt="Landing Page">
+        <div class="project-content">
+          <h3>Le-Marche</h3>
+          <p>A clean landing page built using modern HTML5, CSS Grid, and Flexbox.</p>
+        </div>
+      </div>
+
+      <div class="project">
+        <img src="image/e com.jpg" alt="Weather App">
+        <div class="project-content">
+          <h3>E-Commerce </h3>
+          <p> Developed Responsive and full functioning E
+commerce application using React - Redux, 
+Product fetch by Integrating REST API</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<section id="contact" aria-labelledby="contact-heading">
+            <h2 id="contact-heading" class="sub_head_main">Contact Me</h2>
+
+            <div class="contact-grid">
+                <!-- Contact details -->
+                <div class="contact-info">
+                    <p>Want to collaborate? Send me a message.</p>
+
+                    <div style="margin-top:1rem;">
+                        <strong>Email</strong>
+                        <div style="margin-top:.4rem;"><a href="mailto:farseenahammad6@gmail.com"
+                                style="color:#cfeff3; text-decoration:none;">farseenahammad6@gmail.com</a></div>
+                    </div>
+
+                    <div class="social-links" aria-label="social links">
+                        <a href="https://github.com/FARSEEN6"  target="_blank"><img src="./image/git.jpeg" alt=""
+                                class="cnct-logo"></a>
+                        <a href="https://www.instagram.com/_farzeeiii?igsh=MXh2cWc2ZnIxOHVicA=="><img
+                                src="./image/insta.jpeg" alt=" " class="cnct-logo"></a>
+                        <a href="https://www.linkedin.com/in/farseen-ahammed-pa/"
+                            target="_blank"><img src="./image/linkedin.jpeg" alt=" " class="cnct-logo"></a>
+                        <a href="https://wa.me/918129159207?text=Hello%20farseen!" target="_blank"><img
+                                src="./image/whatsap.jpeg" alt=" " class="cnct-logo"></a>
+                    </div>
+                </div>
+
+                <!-- Contact form -->
+                <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" /> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Farseen Ahammed | Portfolio</title>
+  <link rel="stylesheet" href="portfolio.css" />
+</head>
+<body>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form id="contactForm" class="contact-form" aria-label="Contact form">
+      <div class="form-group">
+        <input id="name" name="name" type="text" placeholder="Your name" required aria-required="true" />
+      </div>
+
+      <div class="form-group">
+        <input id="email" name="email" type="email" placeholder="Your email" required aria-required="true" />
+      </div>
+
+      <div class="form-group">
+        <textarea id="message" name="message" placeholder="Your message" rows="6" required aria-required="true"></textarea>
+      </div>
+
+      <div style="display: flex; gap: .6rem; align-items: center;">
+        <button type="submit" class="btn" aria-label="Send message">Send</button>
+        <div id="contactStatus" class="contact-success" role="status" aria-live="polite"></div>
+      </div>
+    </form>
+  </section>
+
+  <footer>
+    © 2025 Farseen Ahammed.
+  </footer>
+
+  <script>
+    const toggleBtn = document.getElementById('theme-toggle');
+    toggleBtn.addEventListener('click', () => {
+      document.body.classList.toggle('dark');
+      if (document.body.classList.contains('dark')) {
+        toggleBtn.textContent = '☀️ Light';
+      } else {
+        toggleBtn.textContent = '🌙 Dark';
+      }
+    });
+
+    const RECIPIENT_EMAIL = 'farseenahammed6@gmail.com';
+    const contactForm = document.getElementById('contactForm');
+    const contactStatus = document.getElementById('contactStatus');
+
+    // Show message to user
+    function showStatus(message, isError = false) {
+      contactStatus.textContent = message;
+      contactStatus.style.color = isError ? 'red' : 'green';
+    }
+
+    // Handle form submit
+    contactForm.addEventListener('submit', function (e) {
+      e.preventDefault();
+
+      const name = document.getElementById('name').value.trim();
+      const email = document.getElementById('email').value.trim();
+      const message = document.getElementById('message').value.trim();
+
+      if (!name || !email || !message) {
+        showStatus('⚠️ Please fill all fields.', true);
+        return;
+      }
+
+      const subject = `Portfolio contact from ${name}`;
+      const body = `Name: ${name}%0D%0AEmail: ${email}%0D%0A%0D%0AMessage:%0D%0A${encodeURIComponent(message)}`;
+
+      // ✅ Mailto link (opens Outlook / mail client)
+      const mailtoLink = `mailto:${RECIPIENT_EMAIL}?subject=${encodeURIComponent(subject)}&body=${body}`;
+
+      // Open default mail client (Outlook, Mail, etc.)
+      window.location.href = mailtoLink;
+
+      showStatus('📧 Opening Outlook (or your mail app)...', false);
+      contactForm.reset();
+    });
+  </script>
+</body>
+
+</html>
+
+</body>
+</html>
